@@ -57,7 +57,7 @@ body{
     padding: 10px;
 }
 #content h1{
-    text-align: center;
+    text-align: left;
 	font-size: 1.5em;
 }
 
@@ -70,10 +70,7 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 th{
@@ -104,4 +101,7 @@ legend{
 }
 .field_item{
     clear: right;
+}
+input[type='text']{
+	width: 300px;
 }
