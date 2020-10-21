@@ -78,7 +78,7 @@ body{
 .kep{
     float: right;
     padding-right: 20px;
-	color: yellow;
+
 }
 .kep img{
     width: 200px;
@@ -96,7 +96,7 @@ dd{
 }
 table{
     border-collapse: collapse;
-	margin: 10px center;
+	margin: 10px auto;
 }
 th,td{
     padding: 5px 15px;
@@ -117,4 +117,7 @@ legend{
 input[type="text"]{
     width: 500px;
 	
+}
+#menu a.kivalasztott{
+	color:yellow;
 }
